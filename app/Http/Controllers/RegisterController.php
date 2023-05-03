@@ -23,7 +23,6 @@ class RegisterController extends Controller
 
     public function store(Request $request)
     {
-
         $messages = makeMessages();
         // Validación
         $this->validate($request, [
